@@ -1,0 +1,95 @@
+@import "./components";
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    ;
+}
+
+html,
+body {
+    position: relative;
+    font-family: 'Mulish', sans-serif;
+}
+
+html {
+    display: flex;
+    min-height: 100vh;
+}
+
+body {
+    flex: 1;
+    background: #f4f6f8;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.route-container {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #fff;
+    flex: 1;
+}
+
+
+.tab-container {
+    background: #fff;
+}
+
+.table-container {
+    padding: 3rem 1rem;
+    margin: 1rem;
+    background: #fff;
+
+    .vs-con-table .tr-values {
+        border-bottom: 1px solid #eee;
+        cursor: pointer;
+
+        &:hover {
+            background: #f3f3f3;
+            border-bottom-color: #fff;
+        }
+    }
+}
+
+.vs-tabs-primary .con-ul-tabs .line-vs-tabs {
+    background: #005bff;
+    box-shadow: 0 0 transparent !important;
+}
+
+.ul-tabs {
+    border-bottom: 1px solid #eee;
+}
+
+.flex-wrapper {
+    display: flex;
+
+    .half {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+    }
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    background: #8e1e1d;
+    opacity: 0.8;
+    color: white;
+    padding: 5px 10px;
+    padding-right: 18px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 1;
+    }
+}

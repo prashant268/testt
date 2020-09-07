@@ -1,0 +1,11 @@
+.icon {
+    cursor: pointer;
+
+    &.hover {
+        padding: 0.4rem;
+    }
+
+    &.hover:hover {
+        background: rgba(0, 0, 0, 0.14);
+    }
+}
